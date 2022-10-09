@@ -8,7 +8,7 @@
     --leter-spacingmain: 0.03em;
     --align-centermain: center;
     --font-weight-basic: 500;
-    --background-second: #F5F5F5;
+    --background-second: #F5F4FA;
 }
 
 body {
@@ -101,11 +101,25 @@ body {
     letter-spacing: 0.06em;
     color: var(--hero-title-color);
     background: var(--hover-color);
+    cursor: pointer;
 }
 
 .button-hero:hover,
 .button-hero:focus {
     background: #188CE8;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .title-benefits {
@@ -130,7 +144,7 @@ body {
 }
 
 .team {
-    background: #F5F4FA;
+    background: var(--background-second);
 }
 
 .team-title {
@@ -194,6 +208,8 @@ body {
     text-align: var(--align-centermain);
     letter-spacing: var(--leter-spacingmain);
     color: var(--title-color);
+    background: var(--background-second);
+    cursor: pointer;
 }
 
 .buutton-filter:hover,
@@ -208,6 +224,10 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-color);
+}
+
+.title-part {
+    text-transform: uppercase;
 }
 
 .text-filter {
