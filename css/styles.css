@@ -17,10 +17,13 @@ body {
     color: #757575;
 }
 
+.header {
+    background: var(--hero-title-color);
+}
+
 
 .logo-link {
-    font-family: 'Raleway',
-        sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -122,6 +125,10 @@ body {
     overflow: hidden;
 }
 
+.benefits {
+    background: var(--hero-title-color);
+}
+
 .title-benefits {
     font-size: var(--fontsize-title);
     line-height: var(--lineheight-basic);
@@ -136,6 +143,10 @@ body {
     letter-spacing: var(--leter-spacingmain);
 }
 
+.work-example {
+    background: var(--hero-title-color);
+}
+
 
 .work-title {
     text-align: var(--align-centermain);
@@ -145,6 +156,10 @@ body {
 
 .team {
     background: var(--background-second);
+}
+
+.team-list {
+    background: var(--hero-title-color);
 }
 
 .team-title {
@@ -201,6 +216,10 @@ body {
     line-height: 1.71;
 }
 
+.work-item {
+    background: var(--hero-title-color);
+}
+
 .buutton-filter {
     font-weight: var(--font-weight-basic);
     font-size: 16px;
@@ -217,6 +236,12 @@ body {
     background: var(--hover-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--hero-title-color);
+}
+
+.link-filter {
+    color: inherit;
+    font-family: inherit;
+    text-decoration: none;
 }
 
 .title-filter {
